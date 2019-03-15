@@ -1,0 +1,1 @@
+# Um sistema para mostrar a letra e o vídeo de uma playlist

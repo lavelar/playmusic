@@ -1,0 +1,28 @@
+ul {
+    padding: 0;
+}
+
+.lista-musica {
+    max-height: 200px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+.musica__item {
+    list-style: none;
+    padding: 5px 15px;
+    background: #eee;
+    border-bottom: 1px solid #ccc;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.musica__item:hover {
+    background: #ccc;
+}
+
+.musica__item a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #666;
+}
